@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="73dp"
+        android:text="Please Enter Image"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/authimage"
+        android:layout_width="388dp"
+        android:layout_height="204dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/skincancer" />
+
+    <Button
+        android:id="@+id/authbutton"
+        android:layout_width="171dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="112dp"
+        android:text="Camera"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.862"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/authimage" />
+
+    <Button
+        android:id="@+id/authbutton2"
+        android:layout_width="171dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="112dp"
+        android:text="Browse"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/authimage" />
+
+    <Button
+        android:id="@+id/Proceed"
+        android:layout_width="171dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="216dp"
+        android:text="Proceed"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/authimage" />
+
+    <Button
+        android:id="@+id/DataBase"
+        android:layout_width="171dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="216dp"
+        android:text="DataBase"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.862"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/authimage" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
